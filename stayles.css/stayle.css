@@ -1,0 +1,80 @@
+ /* Font Link */
+ .open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* Shared Style */
+  .display-flex{
+    display: flex;
+  }
+  .Brand{
+    font-size: 2.81rem;
+    font-weight: bold;
+    color: rgba(30, 30, 30, 1);
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+  .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .dark-3{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+  }
+  .btn-primary{
+    padding: 20px 25px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    border: none;
+  }
+    /* Navbar Style */
+  .navbar{
+    justify-content: space-between;
+    padding: 20px 250px;
+    text-align: center;
+  }
+  .nav-items{
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-item{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.1rem;
+    font-weight: medium;
+    color: rgba(66, 66, 66, 1);
+  }
+  .nav-link{
+    list-style: none;
+  }
+  /* Banner Style */
+.banner-content{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-tittle{
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+}
+.banner-img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* Responsive Style Mobile */
+@media screen and (max-width: 576px){
+  .navbar, .nav-items{
+    flex-direction: column;
+  }
+  .navbar{
+    padding: 10px 20px;
+  }
+}
